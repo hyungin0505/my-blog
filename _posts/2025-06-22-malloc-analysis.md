@@ -3,7 +3,7 @@ title: bootlean glibc 2.35 malloc.c 분석
 description: bootlean glibc 2.35 malloc.c _int_malloc, _int_free 함수 분석하기
 date: 2025-06-22 03:07:00 +0900
 categories: [Security, System Hacking]
-tags: [security, system, analysis]
+tags: [malloc, analysis]
 author: hyungin0505
 toc: true
 comments: true
@@ -11,7 +11,6 @@ comments: true
 #     path: /assets/img/
 #     alt: image alternative text
 pin: false
-
 ---
 
 `_int_malloc`, `_int_free` 함수 코드를 분석하는 것이 목표다  
