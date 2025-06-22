@@ -338,7 +338,7 @@ def decode_secret(secret: str) -> str:
 secret = "4658hg76<h85eed73ihghidi8ehf<78;"
 decoded_value = decode_secret(secret)
 
-print(f"FLAG{{{decoded_value}}}")
+print(f"FLAG{{decoded_value}}")
 
 # FLAG{1325ed439e52bba40fedefaf5bec9458}
 ```
