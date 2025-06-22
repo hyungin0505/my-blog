@@ -1,9 +1,22 @@
 ---
-title: "C언어 main 함수 표준 정의"
-date: "2025.01.25"
-category: "Programming/C"
+title: C언어 main 함수 표준 정의
+description: C언어 main 함수의 표준 정의
+date: 2025-02-05 00:02:00 +0900
+categories: [Programming, C]
+tags: [main]
+author: hyungin0505
+toc: true
+comments: true
+# image:
+#     path: /assets/img/250125_0/1.png
+#     alt: SSU CTF 2025
+pin: false
 ---
-샌드박스 공부하다가 새로운 걸 알게 되어서 한번 정리해보려 한다
+
+---
+
+샌드박스 공부하다가 새로운 걸 알게 되어서 한번 정리해보려 한다  
+<br>
 
 ---
 
@@ -17,7 +30,8 @@ ANSI (American National Standards Institute)에서 1989년에 C에 대한 공식
 이후 `C99`이라는 비공식 이름으로 흔히 불리는 `ISO/IEC 9899:1999`으로 1999년에 개정되었다  
 여기서 `C++`처럼 슬래시 두 개로 주석 표시를 할 수 있게 되었다
 
-멀티 스레드 지원 등의 기능을 포함해 2011년에 새로 개정되기도 했다
+멀티 스레드 지원 등의 기능을 포함해 2011년에 새로 개정되기도 했다  
+<br>
 
 ---
 
@@ -39,12 +53,13 @@ int main(void) {
 본인이 가장 친숙한 구조로 되어 있다
 
 인자는 `void`로 전달되지 않으며 `int` 자료형으로 값이 반환된다  
-위 함수에서는 0이 반환되게 된다
+위 함수에서는 0이 반환되게 된다  
+<br>
 
 ### 실행 인자가 있는 경우
 
 ```c
-int main(int argc, char *세argv[]) {
+int main(int argc, char *argv[]) {
     return 0;
 }
 ```
@@ -56,23 +71,34 @@ int main(int argc, char *세argv[]) {
 `argc`는 Argument Count의 약자로 인자의 개수를 의미한다  
 바이너리 실행 시 입력된 명령줄 인자를 처리하기 위한 매개변수이다
 
-기본적으로 바이너리 실행 자체도 하나의 인자로 간주되어 최소값은 1이다
+기본적으로 바이너리 실행 자체도 하나의 인자로 간주되어 최소값은 1이다  
+<br>
 
-> ./ex\_file 1
+---
+
+```bash
+./ex\_file 1
+```
 
 가령 이런 식으로 인자와 함께 바이너리를 실행할 경우 `argc`에 `int` 자료형으로 2를 저장하는 것이다
 
 `argv`는 Argument Vector로 명령줄의 인자들의 배열이다  
 문자열 포인터 배열로, 명령줄에서 입력한 값들을 저장한다
 
-가장 첫 번째 인덱스 (`argv[0]`)에는 무조건 실행된 바이너리의 이름이 들어가게 되며 가장 마지막 인덱스(`argv[argc]`)에는 `NULL(\0)`으로 널 바이트가 저장된다
+가장 첫 번째 인덱스 (`argv[0]`)에는 무조건 실행된 바이너리의 이름이 들어가게 되며 가장 마지막 인덱스(`argv[argc]`)에는 `NULL(\0)`으로 널 바이트가 저장된다  
+<br>
 
-> ./ex\_file dead beef
+---
 
-`argc`는 3이 되고, `argv[0]` = dead, `argv[2]` = beef, `argv[3]` = `NULL`가 되는 것이다
+```bash
+./ex\_file dead beef
+```
+
+`argc`는 3이 되고, `argv[0]` = dead, `argv[2]` = beef, `argv[3]` = `NULL`가 되는 것이다  
+<br>
 
 ### 실행 인자와 반환 값이 없는 경우
-```
+```c
 void main() {
 }
 ```
@@ -87,10 +113,13 @@ void main() {
 
 그럼 반환 값은 왜 필요한가 싶은데 쉘 등에서 마지막으로 실행된 바이너리의 반환 값을 확인할 수 있기 때문이다  
 만약 반환 값을 활용하게 될 경우에는 바이너리의 반환 값이 필요해지는 것이다  
-운영 체제에서 활용되는 것이다
+운영 체제에서 활용되는 것이다   
+<br>
+
+---
 
 ### 표준 정의
-```
+```c
 int main(int argc, char *argv[], char *envp[]) {
     return 0;
 }
