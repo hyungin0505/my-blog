@@ -4,6 +4,32 @@ bundle exec jekyll serve
 ```
 localhost:4000
 
+---
+
+Conventional Commits Rule
+- build
+  빌드 시스템이나 외부 의존성 관련 변경
+- chore
+  사소한 변경 (문서 제외)
+- ci
+  CI 관련 설정 변경
+- docs
+  문서 변경
+- feat
+  새로운 기능
+- fix
+  버그 수정
+- perf
+  성능 개선
+- refactor
+  리팩토링
+- revert
+  이전 커밋 되돌림
+- style
+  포맷, 세미콜론 누락 등 스타일 변경
+- test
+  테스트 코드 추가 또는 수정
+
 --- 
 
 <!-- markdownlint-disable-next-line -->
