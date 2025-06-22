@@ -3,6 +3,9 @@
 - type: github
   icon: "fab fa-github"
 
+- type: instagram
+  icon: "fa-brands fa-instagram"
+
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
