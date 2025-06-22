@@ -1,7 +1,7 @@
 ---
 title: Customize the Favicon
 author: cotes
-date: 2019-08-11 00:34:00 +0800
+date: 1601-01-01 00:00:00 +0000
 categories: [Blogging, Tutorial]
 tags: [favicon]
 ---
