@@ -3,7 +3,7 @@ title: 레이스 컨디션 (Race Condition) & ToCToU
 description: 레이스 컨디션과 ToCToU 공격 기밥
 date: 2025-01-30 04:13:00 +0900
 categories: [Security, System Hacking]
-tags: [race condition, toctoui]
+tags: [race condition, toctou]
 author: hyungin0505
 toc: true
 comments: true
