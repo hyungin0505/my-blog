@@ -2,6 +2,10 @@ Live Server for Test
 ```bash
 bundle exec jekyll serve
 ```
+Live Reload Server for Test
+```bash
+jekyll serve --livereload
+```
 localhost:4000
 
 ---
