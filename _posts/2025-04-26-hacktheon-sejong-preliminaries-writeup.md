@@ -1,7 +1,7 @@
 ---
 title: "[2025 핵테온 세종(HackTheon Sejong) 예선전 Preliminaries] Writeup"
 description: 2025 핵테온 세종 국제 대학생 사이버보안 경진대회 예선전 writeup
-date: 2025-04-21 03:04:00 +0900
+date: 2025-04-26 20:17:00 +0900
 categories: [Security, System Hacking]
 tags: [CTF, writeup]
 author: hyungin0505
