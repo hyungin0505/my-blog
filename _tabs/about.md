@@ -49,7 +49,7 @@ order: 4
 ---
 
 ## 📝 프로젝트
-- [Bootlean glibc 2.35 malloc.c 분석](/my-blog/posts/malloc-analysis/)   
+- [Bootlean glibc 2.35 malloc.c 분석](/my-blog/posts/bootlean-glibc-malloc-analysis/)   
   2025.06.22. - 현재
 - [Dodge Game](https://github.com/hyungin0505/GUI-Project-Dodge)    
   중앙대학교 오픈소스SW와파이썬프로그래밍 기말 프로젝트  
