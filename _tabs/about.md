@@ -18,7 +18,7 @@ order: 4
 
 ---
 
-## 🎓 Education
+## 🎓 학력
 
 - **중앙대학교**, 소프트웨어대학 소프트웨어학부    
     (2025.03 - 현재)
@@ -27,7 +27,7 @@ order: 4
 
 ---
 
-## 💼 Activities
+## 💼 활동
 
 - **CAUtion**, 컴퓨터보안/정보보안 동아리 부원  
     중앙대학교 소프트웨어대학 소프트웨어학부 소속  
@@ -41,14 +41,14 @@ order: 4
 
 ---
 
-## 🛡️ Certificates
+## 🛡️ 자격증
 
 - **정보처리기능사** - 한국산업인력공단 (2025.04.18.)
 - **TOEIC** - 850(450/400) - YBM (2024.03.25)
 
 ---
 
-## 📝 Projects
+## 📝 프로젝트
 - [Bootlean glibc 2.35 malloc.c 분석](/my-blog/posts/malloc-analysis/)   
   2025.06.22. - 현재
 - [Dodge Game](https://github.com/hyungin0505/GUI-Project-Dodge)    
@@ -64,7 +64,7 @@ order: 4
 
 ---
 
-## 🏷 License
+## 🏷 라이센스
 
 본 블로그의 모든 콘텐츠는 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ko) 라이선스를 따릅니다.  
 
