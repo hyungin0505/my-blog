@@ -50,6 +50,7 @@ module Rouge
         rule %r/'(\\.|[^'])*'/, Str::Single
 
         rule %r/[{}()\[\];,]/, Punctuation
+        rule %r/\./, Punctuation
         rule %r([=+\-*/%&|^!<>]=?|~), Operator
       end
     end
