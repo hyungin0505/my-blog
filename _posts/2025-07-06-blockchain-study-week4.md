@@ -1,7 +1,7 @@
 ---
 title: "[Week 4] 블록체인"
 description: CryptoZombies Lesson 2
-date: 2025-07-08 14:53:00 +0900
+date: 2025-07-06 12:55:00 +0900
 categories: [Security, BlockChain]
 tags: [blockchain]
 author: hyungin0505
