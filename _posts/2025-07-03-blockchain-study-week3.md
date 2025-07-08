@@ -2,7 +2,7 @@
 title: "[Week 3] 블록체인"
 description: 스마트 컨트랙트, Solidty (CryptoZombies), 개발 환경 설정 및 사용법
 date: 2025-07-03 18:29:00 +0900
-categories: [Security, BlockChain]
+categories: [Study, BlockChain]
 tags: [blockchain]
 author: hyungin0505
 toc: true

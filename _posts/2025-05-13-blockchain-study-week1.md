@@ -2,7 +2,7 @@
 title: "[Week 1] 블록체인"
 description: 블록체인의 정의/배경, 핵심 특성, 해시 함수, 공개키/개인키 암호화, 비트코인의 구조
 date: 2025-05-13 21:22:00 +0900
-categories: [Security, BlockChain]
+categories: [Study, BlockChain]
 tags: [blockchain]
 author: hyungin0505
 toc: true

@@ -2,7 +2,7 @@
 title: "[Week 2] 블록체인"
 description: 이더리움 (스마트 컨트랙트, 가상 머신), 가스, 계정 (EOA, CA), 트랜잭션 생명 주기
 date: 2025-05-31 15:34:00 +0900
-categories: [Security, BlockChain]
+categories: [Study, BlockChain]
 tags: [blockchain]
 author: hyungin0505
 toc: true
