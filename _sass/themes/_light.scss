@@ -114,6 +114,13 @@
     --link-underline-color: rgb(219, 216, 216);
   }
 
+  details{
+    background-color: rgb(245, 245, 245);
+    padding: 0.7em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+  }
+
   .dark {
     display: none;
   }

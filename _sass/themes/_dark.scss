@@ -111,6 +111,13 @@
   --clipboard-checked-color: #2bcc2b;
   --filepath-text-color: #cacaca;
 
+  details{
+    background-color: rgb(33, 33, 36);
+    padding: 0.7em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+  }
+
   .light {
     display: none;
   }
