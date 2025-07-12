@@ -110,7 +110,7 @@ pin: false
 <summary>이더넷 (Ethernet)</summary>
 
 LAN을 구축하기 위해 사용되는 방식 중 가장 많이 사용되는 방식이다  
-각 물리적 링크를 유일한 48비트 고정된 MAC 주소를 사용하는 포트와 연결하는 [버스형](http://blog.kogandhi.kr/posts/network-basic-introdunction/#bus%EB%B2%84%EC%8A%A4%ED%98%95) 접속 형태의 구조이다  
+각 물리적 링크를 유일한 48비트 고정된 MAC 주소를 사용하는 포트와 연결하는 [버스형](https://blog.kogandhi.kr/posts/network-basic-introdunction/#bus%EB%B2%84%EC%8A%A4%ED%98%95) 접속 형태의 구조이다  
 
 매체의 종류, 배선 방식, 전송 지원 속도에 따라 구분된다  
 - 이더넷
@@ -190,7 +190,7 @@ LAN 사이를 이어주는 백본(Backbone Network)를 의미하기도 한다
 
 ### WAN
 **원거리 통신망(Wide Area Network)**  
-[국가 또는 대륙처럼 넓은 지역을 연결하는 네트워크](https://www.submarinecablemap.com/)다 ([Mesh형](http://blog.kogandhi.kr/posts/network-basic-introdunction/#mesh%EB%A7%9D%ED%98%95))  
+[국가 또는 대륙처럼 넓은 지역을 연결하는 네트워크](https://www.submarinecablemap.com/)다 ([Mesh형](https://blog.kogandhi.kr/posts/network-basic-introdunction/#mesh%EB%A7%9D%ED%98%95))  
 장거리 통신이 가능하지만 구축 비용이 많이 들고 LAN보다 속도가 느리다  
 
 다양한 경로를 경유하기 때문에 LAN보다 속도가 느리고 전송 오류율도 높은 편이다  
@@ -218,7 +218,7 @@ LAN 사이를 이어주는 백본(Backbone Network)를 의미하기도 한다
 - **패킷 교환(Packet Switching)**
     - 데이터가 각 고유 번호를 가진 패킷으로 나뉘고 수신지에서 원래 데이터로 재결합된다 
     - 모든 데이터를 패킷으로 구성한다
-    - ([글 상단](http://blog.kogandhi.kr/posts/network-basic-introdunction/#%ED%8C%A8%ED%82%B7)에서 추가 설명)
+    - ([글 상단](https://blog.kogandhi.kr/posts/network-basic-introdunction/#%ED%8C%A8%ED%82%B7)에서 추가 설명)
 </details>
 
 
