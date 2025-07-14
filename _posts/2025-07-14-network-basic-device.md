@@ -1,7 +1,7 @@
 ---
 title: "[컴퓨터 네트워크 기초] 네트워크 장비"
 description: 컴퓨터 네트워크 장비
-date: 2025-07-14 12:15:00 +0900
+date: 2025-07-14 00:15:00 +0900
 categories: [CS, Network]
 tags: [network]
 author: hyungin0505
