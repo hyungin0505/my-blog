@@ -329,8 +329,6 @@ modifier olderThan(uint _age, uint _userId) {
   _;
 }
 
-// 차를 운전하기 위햐서는 16살 이상이어야 하네(적어도 미국에서는).
-// `olderThan` 제어자를 인수와 함께 호출하려면 이렇게 하면 되네:
 function driveCar(uint _userId) public olderThan(16, _userId) {
 
 }
@@ -382,6 +380,8 @@ contract ZombieHelper is ZombieFeeding {
 > **View 함수는 가스를 소모하지 않는다**  
 > `view` 함수는 블록체인 상의 데이터를 읽기만 하고 수정하지 않기 때문에 가스를 소모하지 않게 된다  
 > 가능한 모든 곳에 읽기 전용인 `external view` 함수를 사용하는 것이 좋다  
+> 
+> *`pure` 함수 또한 외부에서 호출될 경우 가스를 소모하지 않는다*
 
 `view` 함수가 같은 컨트랙트 내에 있는 `view` 함수가 아닌 다른 함수에서 내부적으로 호출하면 가스를 소모한다  
 결국 다른 함수가 이더리움 상에 트랜잭션을 생성하고 모든 개별 노드에서 검증되어야 하기 때문이다  
@@ -402,7 +402,7 @@ function getZombiesByOwner(address _owner) external view returns(uint[]) {
 
 ## Chapter 11
 
-솔리디티에서 `strage`를 사용한 연산에 가스를 많이 소모한다  
+솔리디티에서 `storage`를 사용한 연산에 가스를 많이 소모한다  
 그중에서도 쓰기 연산이 비싼 연산이다  
 
 데이터를 새로 쓰거나 수정할 때 블록체인상에 영구적으로 기록되기 때문이다  
