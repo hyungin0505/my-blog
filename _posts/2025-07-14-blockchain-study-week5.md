@@ -1,5 +1,5 @@
 ---
-title: "[Week 5] 블록체인"
+title: "[Week 5-1] 블록체인"
 description: CryptoZombies Lesson 5
 date: 2025-07-14 22:32:00 +0900
 categories: [Study, BlockChain]
