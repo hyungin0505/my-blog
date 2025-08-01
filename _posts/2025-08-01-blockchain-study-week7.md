@@ -1,5 +1,5 @@
 ---
-title: "[Ethernaut] Level 1 Writeup"
+title: "[Ethernaut] Level 1, 2 Writeup"
 description: [Week7 블록체인]
 date: 2025-08-01 16:50:00 +0900
 categories: [Study, BlockChain]
@@ -126,6 +126,8 @@ function withdraw() public onlyOwner {
 ```
 
 출금하는 메소드 `withdraw()`를 사용해서 돈을 0으로 만들어버리면 될 것 같다  
+
+`onlyOwner()` 생성자가 있기 때문에 먼저 `owner`를 탈취하는 것이 우선이다  
 <br>
 
 ---
@@ -157,4 +159,111 @@ function withdraw() public onlyOwner {
 ![Image](/assets/img/250801_0/2.png)
 
 `owner` 따고 `withdraw()`로 돈까지 모두 빼고 Submit instance 누르면 통과된다  
+<br>
+
+---
+
+## Level 2
+
+### 코드 분석
+
+<details markdown="1">
+
+<summary>전체 코드</summary>
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
+
+import "openzeppelin-contracts-06/math/SafeMath.sol";
+
+contract Fallout {
+    using SafeMath for uint256;
+
+    mapping(address => uint256) allocations;
+    address payable public owner;
+
+    /* constructor */
+    function Fal1out() public payable {
+        owner = msg.sender;
+        allocations[owner] = msg.value;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "caller is not the owner");
+        _;
+    }
+
+    function allocate() public payable {
+        allocations[msg.sender] = allocations[msg.sender].add(msg.value);
+    }
+
+    function sendAllocation(address payable allocator) public {
+        require(allocations[allocator] > 0);
+        allocator.transfer(allocations[allocator]);
+    }
+
+    function collectAllocations() public onlyOwner {
+        msg.sender.transfer(address(this).balance);
+    }
+
+    function allocatorBalance(address allocator) public view returns (uint256) {
+        return allocations[allocator];
+    }
+}
+```
+
+</details>
+
+간단하게 `owner` 탈취하면 되는데 엥?? 와이리 쉽노..
+<br>
+
+---
+
+### 풀이
+
+```solidity
+function Fal1out() public payable {
+    owner = msg.sender;
+    allocations[owner] = msg.value;
+}
+```
+
+다른 부분 볼 필요 없이 이 부분만 보면 된다  
+
+주석에는 constructor로 되어 있지만 메소드로 정의되어 있기 때문에 호출만 하면 `owner` 탈취가 가능하다..
+<br>
+
+---
+
+![Image](/assets/img/250801_0/3.png)
+
+<br>
+
+---
+
+### 외전
+
+문제를 풀고 나면 Rubixi라는 컨트랙트의 이야기가 나온다  
+<br>
+
+---
+
+```solidity
+contract Rubixi {
+    address private creator;
+
+    function DynamicPyramid() public {
+        creator = msg.sender;
+    }
+}
+```
+
+이더리움 초창기에 Rubixi라는 컨트랙트가 있었다  
+사실 폰지 사기 구조를 가진 컨트랙트였다  
+
+위처럼 0.4.22 버전 이전까지는 constructor의 이름이 컨트랙트 이름과 동일해야 했다  
+하지만 개발자가 컨트랙트 이름을 Rubixi로 바꿨지만 constuctor의 이름을 그대로 두면서 취약점이 생겼다  
+
+creator가 초기 배포자가 아닌 호출한 사람의 주소가 되어 버려서 아무나 수수료를 탈취할 수 있었다  
 
