@@ -5,7 +5,7 @@ order: 4
 ---
 
 **Name**: 고형인 (Hyungin Ko)  
-**Nickname**: Hyungin0505 (KoGandhi, 513HI)  
+**Nickname**: hyungin0505 (KoGandhi, 513HI)  
 **Country**: 대한민국, Republic of Korea  
 
 **E-mail**: [hyungin0505@naver.com](mailto:hyungin0505@naver.com){:target="_blank"}  
@@ -17,7 +17,7 @@ order: 4
 
 ---
 
-## 🎓 학력
+## 🎓 School
 
 - **중앙대학교**, 소프트웨어대학 소프트웨어학부    
     (2025.03 - 현재)
@@ -26,15 +26,19 @@ order: 4
 
 ---
 
-## 💼 활동
+## 💼 Activities
 
 - **CAUtion**, 컴퓨터보안/정보보안 동아리 운영진  
     중앙대학교 소프트웨어대학 소프트웨어학부 소속  
     (2025.03. - 현재)
-- 중앙대학교 정보통신처 정보보호 서포터즈 2기  
+- **동문네트워크**, Backend  
+    중앙대학교 소프트웨어학부 특별기구 ICT 위원회  
+    (2025.08. - 현재)  
+- **정보보호 서포터즈** 2기  
+    중앙대학교 정보통신처    
     (2025.07. - 현재)
 - **SecurityFACT**, 해킹/정보보안 동아리 부원  
-    건국대학교 공과대학 소속  
+    건국대학교 공과대학 및 컴퓨터공학부 소속  
     (2024.03. - 2024.06.)
 - **Utility**, 프로그래밍 동아리 부원  
     동화고등학교  
@@ -42,14 +46,14 @@ order: 4
 
 ---
 
-## 🛡️ 자격증
+## 🛡️ Certificates
 
 - **정보처리기능사** - 한국산업인력공단 (2025.04.18.)
 - **TOEIC** - 850(450/400) - YBM (2024.03.25)
 
 ---
 
-## 📝 프로젝트
+## 📝 Projects
 - [BPFDoor 분석 및 실습](https://github.com/hyungin0505/BPFDoor_Project/tree/main/%EA%B3%A0%ED%98%95%EC%9D%B8)   
   2025.07.01. - 2025.08.02.
 - [Dodge Game](https://github.com/hyungin0505/GUI-Project-Dodge)    
@@ -65,7 +69,7 @@ order: 4
 
 ---
 
-## 🏷 라이센스
+## 🏷 License
 
 본 블로그의 모든 콘텐츠는 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.ko) 라이선스를 따릅니다.  
 
