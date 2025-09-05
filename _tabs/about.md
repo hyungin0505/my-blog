@@ -54,6 +54,8 @@ order: 4
 ---
 
 ## 📝 Projects
+- [SuNiNaTas All Solved](/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg)  
+  2025.09.05.  
 - [BPFDoor 분석 및 실습](https://github.com/hyungin0505/BPFDoor_Project/tree/main/%EA%B3%A0%ED%98%95%EC%9D%B8)   
   2025.07.01. - 2025.08.02.
 - [Dodge Game](https://github.com/hyungin0505/GUI-Project-Dodge)    
