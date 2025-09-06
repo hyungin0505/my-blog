@@ -61,7 +61,7 @@ module Rouge
         end
 
         # Punctuation & operators
-        rule %r/[\[\]\(\),:={}<>]/, Punctuation
+        rule %r/[\[\]\(\),:;={}<>]/, Punctuation
       end
     end
   end
