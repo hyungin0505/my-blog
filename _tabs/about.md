@@ -54,19 +54,20 @@ order: 4
 ---
 
 ## 📝 Projects
-- [SuNiNaTas All Solved](/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg)  
+- **[SuNiNaTas](https://suninatas.com/) All Solved & WriteUp**  
+  [Certificate](https://blog.kogandhi.kr/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg) / [WriteUp](https://blog.kogandhi.kr/posts/suninatas-wargame-writeup)   
   2025.09.05.  
-- [BPFDoor 분석 및 실습](https://github.com/hyungin0505/BPFDoor_Project/tree/main/%EA%B3%A0%ED%98%95%EC%9D%B8)   
+- **[BPFDoor 분석 및 실습](https://github.com/hyungin0505/BPFDoor_Project/tree/main/%EA%B3%A0%ED%98%95%EC%9D%B8)**   
   2025.07.01. - 2025.08.02.
-- [Dodge Game](https://github.com/hyungin0505/GUI-Project-Dodge)    
+- **[Dodge Game](https://github.com/hyungin0505/GUI-Project-Dodge)**    
   중앙대학교 오픈소스SW와파이썬프로그래밍 기말 프로젝트  
   2025.06.18.  
-- [카카오톡 edb 파일 복호화](https://hyungin0505.tistory.com/103)  
+- **[카카오톡 edb 파일 복호화](https://hyungin0505.tistory.com/103)**  
   2025.02.17.
-- [한미우호협회 사칭 악성파일 분석 실습](https://hyungin0505.tistory.com/89)  
+- **[한미우호협회 사칭 악성파일 분석 실습](https://hyungin0505.tistory.com/89)**  
   SecurityFACT 내부 세미나 발표    
   2024.05.27. 
-- [고등학교 급식 알리미 챗봇](https://github.com/hyungin0505/DonghwaMealAlimi)  
+- **[고등학교 급식 알리미 챗봇](https://github.com/hyungin0505/DonghwaMealAlimi)**  
   2022.11.
 
 ---
