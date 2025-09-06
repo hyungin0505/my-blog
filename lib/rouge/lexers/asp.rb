@@ -45,8 +45,8 @@ module Rouge
         rule %r/\d+(\.\d+)?/, Num
         rule %r/".*?"/, Str::Double
 
-        rule %r/[(){}[\],.:]/, Punctuation
-        rule %r([+\-*/&^=<>\|]), Operator
+        rule %r/[(){}\[\],.:]/, Punctuation
+        rule %r([+\-*/&%^=<>\|]), Operator
       end
     end
   end
