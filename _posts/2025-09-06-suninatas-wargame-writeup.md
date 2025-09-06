@@ -1547,5 +1547,5 @@ FTK Imager로 풀었는데 사실 너무 쉬운 문제다..
 비록 그리 많지 않은 32문제에 대부분 고전 문제들이지만 무언가 끝까지 해봤다는 것에 의의를 둔다  
 그래도 내 실력이 고전이기 때문에 많이 알게 되었고 배웠다  
 
-올솔하면 [인증서](/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg)도 준다 히히  
+올솔하면 [인증서](https://blog.kogandhi.kr/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg)도 준다 히히  
 
