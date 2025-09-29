@@ -40,9 +40,9 @@ order: 4
 - **SecurityFACT**, 해킹/정보보안 동아리 부원  
     건국대학교 공과대학 및 컴퓨터공학부 소속  
     (2024.03. - 2024.06.)
-- **Utility**, 프로그래밍 동아리 부원  
+<!-- - **Utility**, 프로그래밍 동아리 부원  
     동화고등학교  
-    (2021.03. - 2023.02.)
+    (2021.03. - 2023.02.) -->
 
 ---
 
@@ -54,6 +54,8 @@ order: 4
 ---
 
 ## 📝 Projects
+- **[CVE-2022-0847 취약점 분석](https://blog.kogandhi.kr/posts/cve-2022-0847/)**
+  2025.09.25
 - **[SuNiNaTas](https://suninatas.com/) All Solved & WriteUp**  
   [Certificate](https://blog.kogandhi.kr/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg) / [WriteUp](https://blog.kogandhi.kr/posts/suninatas-wargame-writeup)   
   2025.09.05.  
@@ -67,8 +69,8 @@ order: 4
 - **[한미우호협회 사칭 악성파일 분석 실습](https://hyungin0505.tistory.com/89)**  
   SecurityFACT 내부 세미나 발표    
   2024.05.27. 
-- **[고등학교 급식 알리미 챗봇](https://github.com/hyungin0505/DonghwaMealAlimi)**  
-  2022.11.
+<!-- - **[고등학교 급식 알리미 챗봇](https://github.com/hyungin0505/DonghwaMealAlimi)**  
+  2022.11. -->
 
 ---
 
