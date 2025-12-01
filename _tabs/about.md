@@ -55,8 +55,8 @@ order: 4
 ---
 
 ## 📝 Projects
-- **[CVE-2022-0847 취약점 분석](https://blog.kogandhi.kr/posts/cve-2022-0847/)**
-  2025.09.25
+- **[CVE-2022-0847 취약점 분석](https://blog.kogandhi.kr/posts/cve-2022-0847/)**  
+  2025.09.25.
 - **[SuNiNaTas](https://suninatas.com/) All Solved & WriteUp**  
   [Certificate](https://blog.kogandhi.kr/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg) / [WriteUp](https://blog.kogandhi.kr/posts/suninatas-wargame-writeup)   
   2025.09.05.  
