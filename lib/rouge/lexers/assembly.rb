@@ -12,13 +12,15 @@ module Rouge
       mimetypes 'text/x-asm'
 
       keywords = %w(
-        mov push pop lea
-        add sub mul imul div idiv
+        mov mvn push pop lea
+        add adc sub sbc rsb rsc mul imul div idiv sdiv udiv
         inc dec
-        and or xor not shl shr
+        and or orr xor eor not shl shr bic
         jmp je jne jz jnz ja jae jb jbe jg jge jl jle
+        b bl bx bcs bhs bcc blo beq bne bls bhi bmi bpl bvs bvc bge blt bgt ble
+        ldr str
         call ret nop int syscall
-        cmp test
+        cmp cmn tst test teq
       )
 
       registers = %w(
@@ -27,7 +29,9 @@ module Rouge
         al ah bl bh cl ch dl dh
         rax rbx rcx rdx rsi rdi rbp rsp
         r8 r9 r10 r11 r12 r13 r14 r15
+        label lr
         rip eip ip
+        Rd Rn Op1 Op2 Op
       )
 
       directives = %w(
@@ -49,12 +53,14 @@ module Rouge
 
         # Numbers
         rule %r/\b0x[0-9a-fA-F]+\b/, Num::Hex
+        rule %r/\b#0x[0-9a-fA-F]+\b/, Num::Hex
         rule %r/\b\$[0-9A-Fa-f]+\b/, Num::Hex   # e.g. $0045041C (Intel/NASM style)
         rule %r/\b[0-9]+\b/, Num::Integer
 
         # Strings / chars
         rule %r/"(\\.|[^"])*"/, Str::Double
         rule %r/'(\\.|[^'])*'/, Str::Single
+        rule %r/`(\\.|[^`])*`/, Str::Double
 
         # Identifiers
         rule %r/[a-zA-Z_.$][\w$.]*/ do |m|
