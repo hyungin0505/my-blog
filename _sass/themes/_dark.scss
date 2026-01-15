@@ -105,7 +105,7 @@
   --highlight-lineno-color: #808080;
   --inline-code-bg: rgba(255, 255, 255, 0.05);
   --code-color: #b0b0b0;
-  --code-header-text-color: #6a6a6a;
+  --code-header-text-color: #9f9f9f;
   --code-header-muted-color: #353535;
   --code-header-icon-color: #565656;
   --clipboard-checked-color: #2bcc2b;
@@ -275,6 +275,14 @@
 
   .highlight .se {
     color: #b76d45;
+  }
+
+  .highlight .n {
+    color: #cc8d8d
+  }
+
+  .highlight .nb {
+    color: #cc8d8d
   }
 
   .highlight .nn {
