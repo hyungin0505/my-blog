@@ -31,7 +31,7 @@ module Rouge
         r8 r9 r10 r11 r12 r13 r14 r15
         label lr
         rip eip ip
-        Rd Rn Op1 Op2 Op
+        rd rn rm op1 op2 op
       )
 
       directives = %w(
@@ -48,14 +48,14 @@ module Rouge
         # Disassembly line addresses (e.g., 0045035E)
         rule %r/^\s*[0-9A-F]{6,8}\b/, Num::Hex
 
-        # Instruction bytes (e.g., 681C044500)
-        rule %r/\b[0-9A-F]{2,}\b/, Num::Hex
-
         # Numbers
-        rule %r/\b0x[0-9a-fA-F]+\b/, Num::Hex
         rule %r/\b#0x[0-9a-fA-F]+\b/, Num::Hex
+        rule %r/\b0x[0-9a-fA-F]+\b/, Num::Hex
         rule %r/\b\$[0-9A-Fa-f]+\b/, Num::Hex   # e.g. $0045041C (Intel/NASM style)
         rule %r/\b[0-9]+\b/, Num::Integer
+
+        # Instruction bytes (e.g., 681C044500)
+        rule %r/\b[0-9A-F]{2,}\b/, Num::Hex
 
         # Strings / chars
         rule %r/"(\\.|[^"])*"/, Str::Double
