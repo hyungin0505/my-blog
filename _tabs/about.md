@@ -4,39 +4,41 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-**Name**: 고형인 (Hyungin Ko)  
-**Nickname**: hyungin0505 (KoGandhi, 513HI)  
-**Country**: 대한민국, Republic of Korea  
+**Name** : 고형인 (Hyungin Ko)  
+**Nickname** : hyungin0505 (KoGandhi05, 513HI)  
+**Country** : 대한민국, Republic of Korea  
 
-**E-mail**: [hyungin0505@naver.com](mailto:hyungin0505@naver.com){:target="_blank"}  
-**Instagram**: [@\_\_\_\_\_\_kgd\_\_\_\_\_\_](https://instagram.com/______kgd______){:target="_blank"}  
+**E-mail** : [hyungin0505@naver.com](mailto:hyungin0505@naver.com){:target="_blank"}  
+**Instagram** : [@\_\_\_\_\_\_kgd\_\_\_\_\_\_](https://instagram.com/______kgd______){:target="_blank"}  
 
-**GitHub**: [github.com/hyungin0505](https://github.com/hyungin0505){:target="_blank"}  
-**Youtube**: [@KoGandhi05](https://youtube.com/@KoGandhi05)  
-**Blog**: [Tistory](https://hyungin0505.tistory.com){:target="_blank"}  [Naver](https://blog.naver.com/hyungin0505){:target="_blank"}  
+**GitHub** : [github.com/hyungin0505](https://github.com/hyungin0505){:target="_blank"}  
+**Youtube** : [@KoGandhi05](https://youtube.com/@KoGandhi05)  
+**Blog** : [Tistory](https://hyungin0505.tistory.com){:target="_blank"} / [Naver](https://blog.naver.com/hyungin0505){:target="_blank"}  
 
 ---
 
 ## 🎓 School
 
 - **중앙대학교**, 소프트웨어대학 소프트웨어학부    
-    (2025.03 - 현재)
+    (2025.03 - 휴학)
 - **건국대학교**, 공과대학 컴퓨터공학부  
-    (2024.03 - 2025.02)
+    (2024.03 - 2025.02) (중퇴)
 
 ---
 
 ## 💼 Activities
 
+- **CERT**, 해군 정보보호병  
+    (2026.03. - 2027.11.)
 - **CAUtion**, 컴퓨터보안/정보보안 동아리 운영진  
     중앙대학교 소프트웨어대학 소프트웨어학부 소속  
     (2025.03. - 현재)
-- **동문네트워크**, Backend  
-    중앙대학교 소프트웨어학부 특별기구 ICT 위원회  
+- **CCSSAA**, 공식 동문 커뮤니티 Backend  
+    중앙대학교 소프트웨어학부 특별기구 ICT 위원회 소속   
     (2025.08. - 현재)  
-- **정보보호 서포터즈** 2기  
+<!-- - **정보보호 서포터즈** 2기  
     중앙대학교 정보통신처    
-    (2025.07. - 현재)
+    (2025.07. - 2026.12.) -->
 - **SecurityFACT**, 해킹/정보보안 동아리 부원  
     건국대학교 공과대학 및 컴퓨터공학부 소속  
     (2024.03. - 2024.06.)
@@ -55,8 +57,8 @@ order: 4
 ---
 
 ## 📝 Projects
-- **[CVE-2022-0847 취약점 분석](https://blog.kogandhi.kr/posts/cve-2022-0847/)**  
-  2025.09.25.
+- **[CVE-2024-37383 취약점 분석](https://github.com/hyungin0505/CVE-2024-37383_PoC)**  
+  2026.02.14.
 - **[SuNiNaTas](https://suninatas.com/) All Solved & WriteUp**  
   [Certificate](https://blog.kogandhi.kr/assets/img/others/SuNiNaTaS_Certificate(kogandhi).jpg) / [WriteUp](https://blog.kogandhi.kr/posts/suninatas-wargame-writeup)   
   2025.09.05.  
